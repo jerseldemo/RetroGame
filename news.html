@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - RetroGames.cz</title>
+
+    <!-- Incluir Bootstrap CSS (vía CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tu archivo de estilos CSS (modificado) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <!-- Header Section -->
+        <div class="header bg-black text-center text-warning py-4">
+            <h1>RETRO GAMES</h1>
+            <p>Legendary videogames retro</p>
+            <p class="quote text-light font-italic">"We don't stop playing because we grow old; ... we grow old because we stop playing."</p>
+        </div>
+
+        <!-- Buscador -->
+        <div class="container mt-4 mb-3">
+            <form action="/search" method="get" class="d-flex justify-content-center">
+                <input type="text" class="form-control me-2" placeholder="Search for games..." name="query" style="max-width: 500px;">
+                <button type="submit" class="btn btn-warning">Search</button>
+            </form>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!-- Sidebar -->
+                <div class="col-lg-3 col-md-4 col-12 bg-dark text-warning p-3">
+                    <h2 class="text-light">Menu</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-warning">Main</a></li>
+                        <li><a href="news.html" class="text-warning">News</a></li>
+                        <li><a href="contact.html" class="text-warning">Contact</a></li>
+                        <li><a href="registration.html" class="text-warning">Registration</a></li>
+                    </ul>
+
+                    <h2 class="text-light">Games</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="tetris.html" class="text-warning">TETRIS (1989)</a></li>
+                        <li><a href="contra.html" class="text-warning">CONTRA(1987)</a></li>
+                        <li><a href="doom.html" class="text-warning">DOOM(1993)</a></li>
+                        <li><a href="pacman.html" class="text-warning">PACMAN(1980)</a></li>
+                        <li><a href="bomberman.html" class="text-warning">BOMBERMAN(1983)</a></li>
+                        <li><a href="galaga.html" class="text-warning">GALAGA(1986)</a></li>
+                        <li class="text-warning">OTROS...</li>
+                    </ul>
+                </div>
+
+                <!-- Main Content (Noticias) -->
+                <div class="col-lg-6 col-md-8 col-12 bg-black text-light p-3">
+                    <h2 class="text-warning">News</h2>
+
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">Super Mario Bros Hits the Big Screen!</h3>
+                        <p><strong>Date:</strong> November 22, 2024</p>
+                        <p>In a new collaboration with Hollywood, the iconic Super Mario Bros franchise is being adapted into a live-action film. Fans of the plumber brothers are eagerly awaiting the premiere, which promises to bring the beloved characters to life in a whole new way!</p>
+                    </div>
+
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">Contra Gets a Remake!</h3>
+                        <p><strong>Date:</strong> November 21, 2024</p>
+                        <p>The classic action game Contra is getting a remake for modern consoles. Expect updated graphics, new levels, and an online multiplayer mode. This is a huge announcement for fans of the original 1987 arcade game.</p>
+                    </div>
+
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">Tetris World Championship Announced</h3>
+                        <p><strong>Date:</strong> November 20, 2024</p>
+                        <p>With the rise in popularity of competitive Tetris, the first-ever Tetris World Championship will be held in 2025. Top players from around the globe will compete for the title, and fans are eagerly preparing to see who will emerge as the world champion!</p>
+                    </div>
+
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">New Arcade in Tokyo Celebrates Retro Games</h3>
+                        <p><strong>Date:</strong> November 19, 2024</p>
+                        <p>A new arcade in Tokyo is opening its doors to retro gaming enthusiasts. Featuring hundreds of classic machines, including **Pac-Man**, **Street Fighter II**, and **Donkey Kong**, this arcade aims to bring back the nostalgia of the golden age of gaming.</p>
+                    </div>
+
+                    <!-- Más noticias agregadas -->
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">Classic Sega Genesis Games Coming to Modern Consoles</h3>
+                        <p><strong>Date:</strong> November 18, 2024</p>
+                        <p>Sega has announced that classic Sega Genesis titles like **Sonic the Hedgehog**, **Altered Beast**, and **Street of Rage** will soon be available on modern gaming consoles. Fans of the Sega Genesis era are excited to revisit their favorite games with updated features.</p>
+                    </div>
+
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">The Return of the Atari 2600</h3>
+                        <p><strong>Date:</strong> November 17, 2024</p>
+                        <p>The iconic **Atari 2600** is making a comeback in a new limited edition retro console. The new version will feature improved graphics, but still retain the classic charm of the original. It’s a nostalgic journey back to the birth of home gaming!</p>
+                    </div>
+
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">Street Fighter 2 Tournament Announced for 2025</h3>
+                        <p><strong>Date:</strong> November 16, 2024</p>
+                        <p>Capcom has revealed that the iconic **Street Fighter 2** will be featured in a global tournament series next year. Players from around the world will compete in both offline and online events, with huge prizes up for grabs!</p>
+                    </div>
+
+                    <div class="news-item bg-dark p-3 mb-4 border border-warning">
+                        <h3 class="text-warning">Nintendo Announces New Retro-Inspired Console</h3>
+                        <p><strong>Date:</strong> November 15, 2024</p>
+                        <p>Nintendo has announced a new console inspired by its classic **Super Nintendo Entertainment System** (SNES). The console will include built-in classic games and wireless controllers, offering the perfect blend of nostalgia and modern gameplay.</p>
+                    </div>
+
+                </div>
+
+                <!-- Side Info Section -->
+                <div class="col-lg-3 col-md-4 col-12 bg-dark text-warning p-3">
+                    <h2 class="text-light">Latest Retro Games</h2>
+                    <ul class="list-unstyled">
+                        <li class="text-warning">Rocket Knight Adventures</li>
+                        <li class="text-warning">Death and Return of...</li>
+                        <li class="text-warning">Heavy Barrel</li>
+                        <li class="text-warning">Hokuto no Ken 2</li>
+                        <li class="text-warning">Wall Ball</li>
+                    </ul>
+
+                    <h2 class="text-light">Upcoming Retro Events</h2>
+                    <ul class="list-unstyled">
+                        <li class="text-warning">Super Mario Bros hits the big screen.</li>
+                        <li class="text-warning">Contra gets a remake.</li>
+                        <li class="text-warning">The new Tetris competition season has started.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
